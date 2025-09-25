@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wedding Dress Rental</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+
+  <div class="header">
+    <h1> NIKKY'S BRIDAL COLLECTION </h1>
+    <p> Book your dream wedding dress today! </p>
+  </div>
+</header>
+
+  <section class="available-dresses">
+    <h2>Available Dresses</h2>
+    <div class="dress-list">
+      <div class="dress">
+        <img src="/dhoti-shervani.jpg" alt="Wedding Dress 1"/>
+        <h3> Shervani / Dhoti </h3>
+        <p>Size: 6-10</p>
+        <p>Price: $11.32</p>
+      </div>
+      <div class="dress">
+        <img src="/wedding saree.jpg" alt="Wedding Dress 2"/>
+        <h3> Saree </h3>
+        <p>Size: 8-12</p>
+        <p>Price: $11.32</p>
+      </div>
+      <div class="dress">
+        <img src="/Bridal-Lehenga-Choli.webp" alt="Wedding Dress 3"/>
+        <h3> Gagra / Choli </h3>
+        <p>Size: 4-8</p>
+        <p>Price: $16.98</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking-form">
+    <h2>Book Your Dress</h2>
+    <form id="bookingForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="dress">Select Dress:</label>
+      <select id="dress" required>
+        <option value="">--Please choose a dress--</option>
+        <option value="Shervani/Dhoti">Shervani/Dhoti</option>
+        <option value="Gagra/Choli">Gagra/Choli</option>
+        <option value="Saari">Saari</option>
+      </select>
+
+      <label for="date">Rental Date:</label>
+      <input type="date" id="date" required />
+
+      <button type="submit">Book Now</button>
+    </form>
+    <div id="confirmation"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nikky's BRIDAL Collection. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
